@@ -1,0 +1,8 @@
+datasource db {
+  provider = "postgresql"
+  url      = env("https://svtfvzbyfufhogoeqxuy.supabase.co")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
